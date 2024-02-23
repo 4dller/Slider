@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>First Slider Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- Header-->
     <header>
         <nav>
             <a href="">Home</a>
@@ -18,7 +16,7 @@
     </header>
 
     <!-- Carousel-->
-    <div class="carousel">
+    <div class="carousel prev">
         <!--List items-->
         <div class="list">
             <div class="item">
@@ -27,7 +25,10 @@
                     <div  class="author">4DLLER DEV</div>
                     <div class="title">DESIGN SLIDER</div>
                     <div class="topic">ANIMAL</div>
-                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur nihil accusamus veritatis explicaasbo, laboriosam qui, minus atque, eligendi cumque ipsa a suscipit libero quae reprehenderit doloribus expedi ta voluptatum laborum.</div>
+                    <div class="des">
+                        <!--lorem -->
+                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?.
+                        </div>
                     <div class="buttons">
                         <button>SEE MOORE</button>
                         <button>SUBSCRIBE</button>
@@ -37,10 +38,12 @@
             <div class="item">
                 <img src="img/img2.jpg" alt="">
                 <div class="content">
-                    <div  class="autor">ADLLER DEV</div>
+                    <div  class="author">ADLLER DEV</div>
                     <div class="title">DESIGN SLIDER</div>
                     <div class="topic">ANIMAL</div>
-                    <div class="des"> a Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur nihil accusamus veritatis explicabo, laboriosam qui, minus atque, eligendi cumque ipsa a suscipit libero quae reprehenderit doloribus expedita voluptatum laborum.</div>
+                    <div class="des"> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur nihil accusamus veritatis explicabo, laboriosam qui, minus atque, eligendi cumque ipsa a suscipit libero quae reprehenderit doloribus expedita voluptatum laborum.
+                    </div>
                     <div class="buttons">
                         <button>SEE MOORE</button>
                         <button>SUBSCRIBE</button>
@@ -50,12 +53,14 @@
             <div class="item">
                 <img src="img/img3.jpg" alt="">
                 <div class="content">
-                    <div  class="autor">ADLLER DEV</div>
+                    <div  class="author">ADLLER DEV</div>
                     <div class="title">DESIGN SLIDER</div>
                     <div class="topic">ANIMAL</div>
-                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur nihil accusamus veritatis explicabo, laboriosam qui, minus atque, eligendi cumque ipsa a suscipit libero quae reprehenderit doloribus expedita voluptatum laborum.</div>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur nihil accusamus veritatis explicabo, laboriosam qui, minus atque, eligendi cumque ipsa a suscipit libero quae reprehenderit doloribus expedita voluptatum laborum.
+                    </div>
                     <div class="buttons">
-                        <button>SEE MOORE asdasd</button>
+                        <button>SEE MOORE</button>
                         <button>SUBSCRIBE</button>
                     </div>
                 </div>
@@ -63,16 +68,19 @@
             <div class="item">
                 <img src="img/img4.jpg" alt="">
                 <div class="content">
-                    <div  class="autor">ADLLER DEV</div>
+                    <div  class="author">ADLLER DEV</div>
                     <div class="title">DESIGN SLIDER</div>
                     <div class="topic">ANIMAL</div>
-                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur nihil accusamus veritatis explicabo, laboriosam qui, minus atque, eligendi cumque ipsa a suscipit libero quae reprehenderit doloribus expedita voluptatum laborum.</div>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur nihil accusamus veritatis explicabo, laboriosam qui, minus atque, eligendi cumque ipsa a suscipit libero quae reprehenderit doloribus expedita voluptatum laborum.
+                    </div>
                     <div class="buttons">
                         <button>SEE MOORE</button>
                         <button>SUBSCRIBE</button>
                     </div>
                 </div>
-            </div> 
+            </div>
+        </div> 
             <!--thumbnail -->
             <div class="thumbnail">
                 <div class="item">
@@ -81,7 +89,7 @@
                         <div class="title">
                             Slider Name
                         </div>
-                        <div class="des">
+                        <div class="description">
                             Description
                         </div>
                     </div>
@@ -92,7 +100,7 @@
                         <div class="title">
                             Slider Name
                         </div>
-                        <div class="des">
+                        <div class="description">
                             Description
                         </div>
                     </div>
@@ -114,20 +122,21 @@
                         <div class="title">
                             Slider Name
                         </div>
-                        <div class="des">
+                        <div class="description">
                             Description
                         </div>
                     </div>
                 </div>                
             </div>
-            <!-- arrows -->
+
+            <!-- arrows  next and prev -->
             <div class="arrows">
                 <button id="prev"><</button>
                 <button id="next">></button>
             </div>
-        </div>
+        <!-- time running -->
+        <div class="time"></div>
     </div>
-
 
     <script src="slider.js"></script>
 </body>
