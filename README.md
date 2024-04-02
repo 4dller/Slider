@@ -1,4 +1,4 @@
-# :robot: First Slider Project  :arrow_left: :arrow_right: Em construção... :construction: 
+# First Slider Project  :arrow_left: :arrow_right: Em construção... :construction: 
 
 O Slider é um projeto de carrossel de imagens desenvolvido em JavaScript puro, projetado para proporcionar uma experiência visual envolvente em páginas da web. Este projeto permite aos usuários navegarem de forma intuitiva por uma coleção de imagens, utilizando controles simples de "avançar" e "retroceder". <br/> <br/>
 ![Captura de tela 2024-03-13 231330](https://github.com/4dller/Slider/assets/105998603/7b66c1c0-5a99-43df-b3fa-15fffae35b43) <br/>
